@@ -7,5 +7,5 @@
 1. Add match result ( see data/*.csv )
 2. Run
 ```
-runner data/<match>.csv
+./runner data/<match>.csv
 ```
