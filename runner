@@ -1,0 +1,11 @@
+#!/usr/bin/Rscript
+
+# ./runner.R data/2014-09-10.csv
+
+source('match_summary.R');
+
+args <- commandArgs(TRUE);
+file <- args[1];
+
+data <- match_summary(file);
+print_result(data);
